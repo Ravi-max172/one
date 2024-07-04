@@ -1,0 +1,7 @@
+from second import factorial
+ask =int(input("Enter the number:"))
+if factorial(ask):
+  print(f"The factorial of {ask} is {factorial(ask)}")
+
+else:
+  print("The number is not valid")

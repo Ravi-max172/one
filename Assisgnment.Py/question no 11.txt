@@ -1,0 +1,15 @@
+
+try:
+  ask = input("Enter the two number seprated by commas::").split(",")
+  int_list = [int(item) for item in ask]
+  print(int_list[0]/int_list[1])
+except ValueError:
+  print("Please enter the integer value")
+except ZeroDivisionError:
+  print("please enter number greate than 0")
+
+else:
+  print("Thank you")
+
+finally:
+  (print("Thank you"))

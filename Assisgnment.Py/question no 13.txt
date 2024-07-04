@@ -1,0 +1,13 @@
+def greet():
+  ask = input("enter your name: ")
+  age=input("Enter your age: ")
+
+  if age : 
+    age=int(age )
+  else:
+    age=25
+
+  print(f"Hello {ask}! You are {age} years old")
+
+
+greet()

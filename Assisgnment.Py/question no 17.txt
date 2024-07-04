@@ -1,0 +1,9 @@
+asterik="*"
+
+ask=int(input("Enter the number:::::"))
+while ask>0:
+  ask-=1
+  print(ask*" ",asterik)
+  asterik+= "**"
+
+  

@@ -1,0 +1,12 @@
+array=[1,2,3,4,5,6,7,8,9,0,1,20]
+
+def finds(array):
+  count=0
+  for i in array :
+    if array.count(i)>=1:
+      return True
+    return False
+
+print(finds(array))
+
+    
